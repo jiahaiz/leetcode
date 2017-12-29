@@ -5,4 +5,11 @@ Created on Tue Dec 26 11:00:12 2017
 @author: USER
 """
 
-print "test"
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        
