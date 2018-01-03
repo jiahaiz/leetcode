@@ -27,3 +27,8 @@ class Solution(object):
                 pre_row = tmp
             result.append(pre_row)
         return result
+        
+if __name__ == "__main__":
+    s = Solution()
+    for item in s.generate(12) :
+        print item
