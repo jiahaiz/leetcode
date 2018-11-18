@@ -24,7 +24,7 @@ class Solution(object):
         elif p== None or q==None:
             return False
         else:
-            if(p.val!=q.val ):
+            if p.val!=q.val :
                 return False
             else:
                 if p.left != None and q.left != None and p.right != None and q.right != None:
